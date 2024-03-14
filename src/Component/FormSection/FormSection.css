@@ -1,0 +1,67 @@
+.form-width {
+    max-width: 3000px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.form-row {
+    margin-top: 10rem;
+}
+
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    /* display: none; */
+}
+
+.checkbox {
+    width: 37px;
+    height: 21px;
+}
+
+.message {
+    padding: 0px 5px;
+}
+
+#btn {
+    text-transform: uppercase;
+    padding: 0.3125rem 3.25rem;
+}
+
+
+@media(max-width:1536px) {
+    .form-width {
+        max-width: 1280px;
+    }
+}
+
+@media(max-width:1280px) {
+    .form-width {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:1024px) {
+    .form-width {
+        max-width: 768px;
+    }
+}
+
+@media(max-width:768px) {
+    .form-width {
+        max-width: 648px;
+    }
+}
+
+@media(max-width:648px) {
+    .form-width {
+        max-width: 475px;
+    }
+}
+
+@media(max-width:475px) {
+    .form-width {
+        width: 100%;
+    }
+}

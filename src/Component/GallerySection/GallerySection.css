@@ -1,0 +1,42 @@
+.gallery-width {
+    max-width: 3000px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+@media(max-width:1536px) {
+    .gallery-width {
+        max-width: 1280px;
+        width: 100%;
+    }
+}
+
+@media(max-width:1280px) {
+    .gallery-width {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:1024px) {
+    .gallery-width {
+        max-width: 768px;
+    }
+}
+
+@media(max-width:768px) {
+    .gallery-width {
+        max-width: 648px;
+    }
+}
+
+@media(max-width:648px) {
+    .gallery-width {
+        max-width: 475px;
+    }
+}
+
+@media(max-width:475px) {
+    .gallery-width {
+        width: 100%;
+    }
+}

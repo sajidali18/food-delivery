@@ -1,0 +1,65 @@
+.About {
+  margin-top: 15rem;
+}
+
+.right-about {
+  margin-left: 15rem;
+}
+
+.para {
+  width: 100%;
+}
+
+#sajid {
+  color: #4d5969;
+  background-color: #ffc554;
+  border-color: #ffc554;
+  text-transform: uppercase;
+  padding: 0.3125rem 3.25rem;
+}
+
+.about-width {
+  max-width: 1536px;
+  /* margin: auto; */
+  margin-top: 4rem;
+}
+
+@media(max-width:1536px) {
+  .about-width {
+    max-width: 1280px;
+  }
+}
+
+@media(max-width:1280px) {
+  .about-width {
+    max-width: 1024px;
+  }
+}
+
+@media(max-width:1024px) {
+  .about-width {
+    max-width: 768px;
+  }
+}
+
+@media(max-width:768px) {
+  .about-width {
+    max-width: 648px;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+@media(max-width:648px) {
+  .about-width {
+    max-width: 475px;
+  }
+}
+
+@media(max-width:475px) {
+  .about-width {
+    width: 100%;
+  }
+}

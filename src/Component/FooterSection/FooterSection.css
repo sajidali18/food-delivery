@@ -1,0 +1,49 @@
+.footer {
+    color: white;
+}
+
+.footer-nav ul li a {
+    color: white;
+}
+
+.footer-width {
+    max-width: 3000px;
+    margin-top: 4rem;
+}
+
+/* 
+@media(max-width:1536px) {
+    .footer-width {
+        max-width: 1280px;
+    }
+}
+
+@media(max-width:1280px) {
+    .footer-width {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:1024px) {
+    .footer-width {
+        max-width: 768px;
+    }
+}
+
+@media(max-width:768px) {
+    .footer-width {
+        max-width: 648px;
+    }
+}
+
+@media(max-width:648px) {
+    .footer-width {
+        max-width: 475px;
+    }
+}
+
+@media(max-width:475px) {
+    .footer-width {
+        width: 100%;
+    }
+} */

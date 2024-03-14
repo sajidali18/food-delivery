@@ -1,0 +1,47 @@
+.Menu-Container {
+  margin: auto;
+}
+
+.text h1 {
+  font-weight: 900;
+}
+
+.Menu-Container {
+  max-width: 3000px;
+}
+
+@media(max-width:1536px) {
+  .Menu-Container {
+    max-width: 1280px;
+  }
+}
+
+@media(max-width:1280px) {
+  .Menu-Container {
+    max-width: 1024px;
+  }
+}
+
+@media(max-width:1024px) {
+  .Menu-Container {
+    max-width: 768px;
+  }
+}
+
+@media(max-width:768px) {
+  .Menu-Container {
+    max-width: 648px;
+  }
+}
+
+@media(max-width:648px) {
+  .Menu-Container {
+    max-width: 475px;
+  }
+}
+
+@media(max-width:475px) {
+  .Menu-Container {
+    width: 100%;
+  }
+}

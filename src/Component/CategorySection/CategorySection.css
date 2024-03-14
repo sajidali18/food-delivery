@@ -1,0 +1,54 @@
+.burger {
+  margin-right: 250px;
+}
+
+.info {
+  margin: 30px;
+}
+
+.category-container {
+  max-width: 3000px;
+  margin: auto;
+}
+
+@media(max-width:1536px) {
+  .category-container {
+    max-width: 1280px;
+  }
+}
+
+@media(max-width:1280px) {
+  .category-container {
+    max-width: 1024px;
+  }
+
+  .classimg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:1024px) {
+  .category-container {
+    max-width: 768px;
+  }
+}
+
+@media(max-width:768px) {
+  .category-container {
+    max-width: 648px;
+  }
+}
+
+@media(max-width:648px) {
+  .category-container {
+    max-width: 475px;
+  }
+}
+
+@media(max-width:475px) {
+  .category-container {
+    width: 100%;
+  }
+}

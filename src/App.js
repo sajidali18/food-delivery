@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import NavBar from './Component/NavBar/NavBar';
+import TopSection from './Component/TopSection/TopSection';
+import MenuSection from './Component/MenuSection/MenuSection';
+import DetailSection from './Component/DetailSection/DetailSection';
+import OrderSection from './Component/OrderSection/OrderSection';
+import CategorySection from './Component/CategorySection/CategorySection';
+import GallerySection from './Component/GallerySection/GallerySection';
+import AboutSection from './Component/AboutSection/AboutSection';
+import ContactSection from './Component/ContactSection/ContactSection';
+import FormSection from './Component/FormSection/FormSection';
+import FooterSection from './Component/FooterSection/FooterSection';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <TopSection />
+      <MenuSection />
+      <DetailSection />
+      <OrderSection />
+      <CategorySection />
+      <GallerySection />
+      <AboutSection />
+      <ContactSection />
+      <FormSection />
+      <FooterSection />
     </div>
-  );
+  )
 }
 
 export default App;

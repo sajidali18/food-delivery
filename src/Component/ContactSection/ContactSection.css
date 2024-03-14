@@ -1,0 +1,50 @@
+.contact-img {
+    right: 0px;
+}
+
+i {
+    font-size: 23px;
+    margin-right: 22px;
+    color: #dc3545;
+}
+
+.contact-width {
+    max-width: 3000px;
+    margin: auto;
+}
+
+@media(max-width:1536px) {
+    .contact-width {
+        max-width: 1280px;
+    }
+}
+
+@media(max-width:1280px) {
+    .contact-width {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:1024px) {
+    .contact-width {
+        max-width: 768px;
+    }
+}
+
+@media(max-width:768px) {
+    .contact-width {
+        max-width: 648px;
+    }
+}
+
+@media(max-width:648px) {
+    .contact-width {
+        max-width: 475px;
+    }
+}
+
+@media(max-width:475px) {
+    .contact-width {
+        width: 100%;
+    }
+}
